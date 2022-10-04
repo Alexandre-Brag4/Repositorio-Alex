@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(imagens/livros.jpg);
+    background-repeat: no-repeat;
+}
+
+.logo-cabeca {
+    height: 70px;
+    width: 70px;
+    position: relative;
+        left: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    border-bottom: 3px solid black;
+    background-color: rgba(53, 53, 53, 0.404);
+    box-shadow: 2px 2px 2px white;
+
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    gap: 20px;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-shadow: 2px;
+    font-size: 22px;
+
+}
+
+.ladoesquerdo-cabeca {
+    width: 30%;
+}
+
+.ladodireito-cabeca {
+    display: flex;
+    position: relative;
+    width: 70%;
+}
+
+#hobbie-cabeca {
+    margin-right: 250px;
+    
+}
+
+#sobre-cabeca {
+    margin-right: 250px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 676px;
+    background-color: rgba(53, 53, 53, 0.404);
+
+}
+
+.corpo-direito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    border-left: 2px dashed black;
+}
+
+.corpo-esquerdo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    border-right: 2px dashed black;
+}
+h1{
+    color: white;
+    margin-top: 15px;
+    text-shadow: 2px 2px 1px black;
+
+}
+h1:hover{
+    color: skyblue;
+    font-size: 35px;
+}
+.texto-esquerdo{
+    margin-top: 20px;
+    width: 90%;
+    overflow-wrap:break-word ;
+    font-size: 25px;
+    line-height: 42px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.atalho:hover{
+    color: black;
+}
+.texto-direito{
+    margin-top: 20px;
+    width: 90%;
+    overflow-wrap:break-word ;
+    font-size: 25px;
+    line-height: 45px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#foto-trilha{
+    width: 700px;
+    height: 450px;
+    border-radius: 25%;
+    border: 4px solid white;
+}

@@ -1,0 +1,152 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(imagens/facu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-cabeca {
+    height: 70px;
+    width: 70px;
+    position: relative;
+        left: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    border-bottom: 3px solid black;
+    background-color: rgba(53, 53, 53, 0.404);
+    box-shadow: 2px 2px 2px white;
+
+}
+
+a {
+    
+    font-size: 20px;
+    color: white;
+    gap: 20px;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-shadow: 2px;
+    font-size: 22px;
+
+}
+.ladoesquerdo-cabeca {
+    width: 30%;
+}
+
+.ladodireito-cabeca {
+    display: flex;
+    position: relative;
+    width: 70%;
+}
+
+#hobbie-cabeca {
+    margin-right: 250px;
+    
+}
+
+#sobre-cabeca {
+    margin-right: 250px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 676px;
+    background-color: rgba(53, 53, 53, 0.404);
+
+}
+.parte-corpo {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.parte-baixo {
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+.for {
+    margin-top: 20px;
+    padding: 10px;
+    line-height: 42px;
+    font-size: 22px;
+    border-radius: 15%;
+    width: 27%;
+    height: 50%;
+    overflow-wrap: break-word;
+    color: #d5e8ee;
+
+}
+
+.obj {
+    margin-top: 20px;
+    padding: 10px;
+    width: 25%;
+    height: 50%;
+    line-height: 42px;
+    font-size: 22px;
+    border-radius: 15%;
+    color: #d5e8ee;
+
+}
+
+.pe {
+    width: 48%;
+    height: 80%;
+    margin-top: 20px;
+    padding: 10px;
+    line-height: 42px;
+    font-size: 22px;
+    color: #d5e8ee;
+    overflow-wrap: break-word;
+   
+}
+
+h1{
+    color: black;
+    font-weight: bolder;
+}
+    
+h1:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px;
+    font-size: 31px;
+}
+.obj:hover{
+    background-color: rgba(53, 53, 53, 0.404);
+    border: 2px solid white;
+}
+.for:hover{
+    background-color: rgba(53, 53, 53, 0.404);
+    border: 2px solid white;
+
+}
+h4{
+    color: whitesmoke;
+    margin-left: 110px;
+}
+h4:hover{
+    font-size: 25px;
+}
+.pe:hover{
+    background-color: rgba(53, 53, 53, 0.404);
+    border: 2px solid white;
+    border-radius: 5%;
+}
